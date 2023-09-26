@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Information Form</title>
+    <style>
+       /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Container for the form */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* Form groups for labels and inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio button styling */
+.radio-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Form groups for labels and inputs (same as previous code) */
+
+/* Button styling (same as previous code) */
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.footer img {
+     max-width: 35%;
+    height: auto;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="header.jpg" alt="Hospital Banner">
+    </div>
+    <div class="container">
+        <h1>Patient Information Form</h1>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScRmUGPIm6M9ee0M2R7s1Thm2P2CCFci5vX-hfS1yPtB-Pa1A/formResponse" target="_self" method="POST" id="mG61Hd">
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="entry.2146321477" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="entry.1283539346" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="entry.1022255618" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="entry.974333952" required>
+            </div>
+            <div class="form-group">
+                <label for="entry.309582039">Gender</label>
+                <div class="radio-group">
+                    <label for="Male"><input type="radio" id="gender" name="entry.309582039" value="Male">  Male</label>
+                    <label for="Female"><input type="radio" id="gender" name="entry.309582039" value="Female"> Female</label>
+		    <label for="Other response"> <input type="radio" id="gender" name="entry.309582039" value="Other response"> Other response</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="entry.665131891" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <img src="footer.jpg" alt="IT Developer">
+    </div>
+</body>
+</html>

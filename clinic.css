@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Container for the form */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* Form groups for labels and inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio button styling */
+.radio-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Form groups for labels and inputs (same as previous code) */
+
+/* Button styling (same as previous code) */
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.footer img {
+     max-width: 35%;
+    height: auto;
+}
