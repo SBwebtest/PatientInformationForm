@@ -101,20 +101,31 @@ button:hover {
 .footer {
     text-align: center;
     background-color: #007BFF;
-    padding: 10px 0;
+    padding: 0px 0;
+ 	padding-top: 5px; /* Add padding at the top */
+            margin-top: 15px; /* Add margin at the top */
 }
 
 .footer img {
-     max-width: 35%;
+     max-width: 100%;
     height: auto;
 }
+/* Responsive styling */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="Header.jpg" alt="Hospital Banner">
-    </div>
+    
     <div class="container">
+	<div class="header">
+        <img src="Header.jpg" alt="Hospital Banner">
+	
+    </div>
         <h1>Patient Information Form</h1>
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScRmUGPIm6M9ee0M2R7s1Thm2P2CCFci5vX-hfS1yPtB-Pa1A/formResponse" target="_self" method="POST" id="mG61Hd">
             <div class="form-group">
@@ -147,9 +158,10 @@ button:hover {
             </div>
             <button type="submit">Submit</button>
         </form>
-    </div>
-    <div class="footer">
+ 	<div class="footer">
         <img src="footer.jpg" alt="IT Developer">
+    	</div>
     </div>
+   
 </body>
 </html>
